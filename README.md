@@ -1,4 +1,4 @@
-# JSP & Servlets : jsp_servlet study [(Seoul Wiz)](http://www.wiz.center/tag/jsp "Seoul Wiz")
+# JSP & Servlets
 JAVA JSP & Servlets study
 <hr/>
 ##1. [(luv2code)](http://www.luv2code.com/ "luv2code") English
