@@ -18,6 +18,7 @@ Eclipse (www.eclipse.org)
 		dynamic web project
 		target runtime : apache tomcat
 		generate web.xml deployment descriptor : check
+		Build path : workspace default JRE
 
 Git
 	1. becareful with gitignore settings

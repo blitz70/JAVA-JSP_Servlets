@@ -349,25 +349,3 @@ General
 		modify - ok
 		delete - ok
 		reply - ok
-		
-[Java Brains]
-Annotation vs Web.xml
-	Annotation
-		Advantage : simple & easy
-		Servlet setting
-			@WebServlet("/myServlet")
-	
-	Web.xml
-		Advantage : lesser dependency
-		Servlet setting
-			<web-app>
-				<servlet>
-					<servlet-name>myServlet<servlet-name>
-					<servlet-class>kr.co.iamtek.MyServlet<servlet-class>
-				</servlet>
-				<servlet-mapping>
-					<servlet-name>myServlet<servlet-name>
-					<url-pattern>/myServletpath</url-pattern>
-				</servlet-mapping>
-			</web-app>
-			
