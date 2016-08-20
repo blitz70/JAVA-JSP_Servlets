@@ -19,6 +19,8 @@ Eclipse (www.eclipse.org)
 		target runtime : apache tomcat
 		generate web.xml deployment descriptor : check
 		Build path : workspace default JRE
+	5. source codes (Tomcat)
+		download & attach		
 
 Git
 	1. becareful with gitignore settings
