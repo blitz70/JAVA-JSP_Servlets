@@ -19,4 +19,19 @@ Annotation vs Web.xml
 					<url-pattern>/myServletpath</url-pattern>
 				</servlet-mapping>
 			</web-app>
-			
+
+8 HTTP Scope (Servlet)
+	HttpServletRequest
+		HTTP is a stateless/non-persistent protocol, it forgets previous request object data
+	HTTPSession
+		Expands HTTP scope/persistence across requests per browser-application connection
+		One session per browser-application connection
+		create : HttpSession session = request.getSession();
+		set : session.setAttribute("savedUserName", userName);
+		get : session.getAttribute("savedUserName")
+	ServletContex
+		Expands HTTP scope/persistence across all connections per application
+		One context per application
+		create : ServletContext context =  request.getServletContext();
+		set : context.setAttribute()
+		get : context.getAttribute()

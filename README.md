@@ -33,6 +33,9 @@ JAVA JSP & Servlets study
 [3](https://www.youtube.com/watch?v=YxuCG0f14hM&list=PLE0F6C1917A427E96&index=4)
 [5](https://www.youtube.com/watch?v=MnUJl3NYRRc&index=6&list=PLE0F6C1917A427E96)
 [6](https://www.youtube.com/watch?v=0WPfqrSCb6c&index=7&list=PLE0F6C1917A427E96)
-* web.xml configuration
+[7](https://www.youtube.com/watch?v=yzC4oDXfkl0&list=PLE0F6C1917A427E96&index=8)
+* Web.xml configuration
 [4](https://www.youtube.com/watch?v=w6YPK9xunCk&list=PLE0F6C1917A427E96&index=5)
-* ect
+* HTTP Scope : request, session, context
+[8-1](https://www.youtube.com/watch?v=GbvuAIhLUZU&list=PLE0F6C1917A427E96&index=9)
+[8-2](https://www.youtube.com/watch?v=sHpUrCJmCWs&index=10&list=PLE0F6C1917A427E96)
