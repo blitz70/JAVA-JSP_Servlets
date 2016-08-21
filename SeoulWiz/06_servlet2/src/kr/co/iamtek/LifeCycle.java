@@ -6,6 +6,8 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -23,7 +25,6 @@ public class LifeCycle extends HttpServlet {
      */
     public LifeCycle() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
@@ -54,10 +55,12 @@ public class LifeCycle extends HttpServlet {
 	/**
 	 * @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)
 	 */
-	//protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-	//	System.out.println("service");	//3
-	//}
-
+	@Override
+	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
+		System.out.println("service");	//3
+		super.service(req, res);
+	}
+	
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */

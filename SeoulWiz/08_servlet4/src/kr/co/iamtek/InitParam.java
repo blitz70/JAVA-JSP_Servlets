@@ -20,27 +20,22 @@ public class InitParam extends HttpServlet {
      */
     public InitParam() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		//response.getWriter().append("Served at: ").append(request.getContextPath());
-		System.out.println("doGet");
-		
-		//ServletConfig 은 HttpServlet의 상위, 그냥 사용하면 됨.
-		
-		String id = getInitParameter("id");
-		String pwd = getInitParameter("pwd");
-		String path = getInitParameter("path");
+		System.out.println("InitParam doGet");
+
+		String id = getInitParameter("id1");
+		String pwd = getInitParameter("pwd1");
+		String path = getServletConfig().getInitParameter("path1");
 		
 		response.setContentType("text/html; charset=EUC-KR");
 		PrintWriter writer = response.getWriter();
 		writer.println("<html><head></head><body>");
-		writer.println("아이디 : " + id + "<br>");
+		writer.println("아이디 : " + id + " <br>");
 		writer.println("암호 : " + pwd + "<br>");
 		writer.println("경로 : " + path);
 		writer.println("</body></html>");
@@ -51,8 +46,6 @@ public class InitParam extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		//doGet(request, response);
 		System.out.println("doPost");
 	}
 

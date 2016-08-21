@@ -1,6 +1,8 @@
 package kr.co.iamtek;
 
 import java.io.IOException;
+import java.io.PrintWriter;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebInitParam;
 import javax.servlet.annotation.WebServlet;
@@ -13,9 +15,9 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet(
 		urlPatterns={"/IParam2"},
-		initParams={@WebInitParam(name="id", value="aaaa"),
-				@WebInitParam(name="pwd", value="9876"),
-				@WebInitParam(name="path", value="C:\\TEMP")
+		initParams={@WebInitParam(name="id2", value="init2"),
+				@WebInitParam(name="pwd2", value="pass2"),
+				@WebInitParam(name="path2", value="\\path2")
 		}
 )
 
@@ -27,19 +29,26 @@ public class InitParam2 extends HttpServlet {
      */
     public InitParam2() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("doGet");
-		String id = getInitParameter("id");
-		String pwd = getInitParameter("pwd");
-		String path = getInitParameter("path");
-		System.out.println("id:" + id+ ", pwd:" + pwd + ", path:" + path);
+		System.out.println("InitParam2 doGet");
 		
+		String id = getInitParameter("id2");
+		String pwd = getInitParameter("pwd2");
+		String path = getInitParameter("path2");
+		
+		response.setContentType("text/html; charset=EUC-KR");
+		PrintWriter writer = response.getWriter();
+		writer.println("<html><head></head><body>");
+		writer.println("아이디 : " + id + " <br>");
+		writer.println("암호 : " + pwd + "<br>");
+		writer.println("경로 : " + path);
+		writer.println("</body></html>");
+		writer.close();
 	}
 
 	/**

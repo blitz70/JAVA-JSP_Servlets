@@ -6,8 +6,16 @@ JAVA JSP & Servlets study
 * JSF intro
 
 ##2. [(Seoul Wiz)](https://www.youtube.com/playlist?list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9 "Seoul Wiz") video 33-63, Korean
-* Dev environment
+* Introduction & Setup
+[1](https://www.youtube.com/watch?v=APJAJeePl4g&index=33&list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9)
+[2](https://www.youtube.com/watch?v=0cy1Oa-2DQg&list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9&index=34)
+[3](https://www.youtube.com/watch?v=dWkKwWDQxio&index=35&list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9)
+[4](https://www.youtube.com/watch?v=MmxzA_0Vtoo&index=36&list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9)
 * Servlet
+[5](https://www.youtube.com/watch?v=6D1hOSyHJTg&list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9&index=37)
+[6](https://www.youtube.com/watch?v=U6FA7oWgizc&list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9&index=38)
+[7](https://www.youtube.com/watch?v=2Pqi-kUMwtw&index=39&list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9)
+[8](https://www.youtube.com/watch?v=nb0ACztuQR0&list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9&index=40)
 * JSP
 * Cookie & Session
 * Exception

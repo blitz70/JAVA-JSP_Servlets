@@ -69,19 +69,20 @@ General
 
 08 Servlet
 	Servlet initialization : 특정 servlet 초기화
-		indirect : web.xml에 기술하고 servlet에서 ServletConfig 클래스를 통해 사용
+		web.xml : web.xml에 기술하고 servlet에서 ServletConfig 클래스를 통해 사용
 			web.xml : <servlet>에 <init-param> 추가
 			servlet : ServletConfig 메소드 getInitParameter() 사용
-		direct : servlet의 @WebServlet에 @WebInitParam 추가
+		annotation : servlet의 @WebServlet에 @WebInitParam 추가
 			@WebServlet(urlPatterns={"매핑명"}, initParams={@WebInitParam(초기화1), @WebInitParam()...})
 	ServletContext : 데이터 공유, 복수 servlet 초기화
 		web.xml에 기술하고 여러 servlet에서 공유
 		web.xml : <servlet> 상단에 <context-param> 추가
 		servlet : ServletContext 메소드 getServletContext().getInitParameter() 사용
 	ServletContextListener : 웹어플리케이션 생명주기 감시
+		web application = many servlets
 		감시 클래스 생성 : ServletContextListener 인터페이스 구현
 		web.xml : <web-app>에 <listener> 추가
-		listener class : @WebListener 추가
+		annotation : listener class에 @WebListener 추가
 		
 09 JSP
 	General

@@ -1,6 +1,7 @@
 package kr.co.iamtek;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -30,11 +31,18 @@ public class InitParam3 extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		System.out.println("doGet");
+		System.out.println("InitParam3 doGet");
 
-		String id2 = getServletContext().getInitParameter("id2");
-		String pwd2 = getServletContext().getInitParameter("pwd2");
-		System.out.println("id:" + id2 + ", pwd:" + pwd2);
+		String id = getServletContext().getInitParameter("id3");
+		String pwd = getServletContext().getInitParameter("pwd3");
+
+		response.setContentType("text/html; charset=EUC-KR");
+		PrintWriter writer = response.getWriter();
+		writer.println("<html><head></head><body>");
+		writer.println("아이디 : " + id + " <br>");
+		writer.println("암호 : " + pwd + "<br>");
+		writer.println("</body></html>");
+		writer.close();
 	}
 
 	/**
