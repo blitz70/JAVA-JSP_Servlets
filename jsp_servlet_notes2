@@ -35,3 +35,30 @@ Annotation vs Web.xml
 		create : ServletContext context =  request.getServletContext();
 		set : context.setAttribute()
 		get : context.getAttribute()
+
+9 Servlet Life cycle
+	Init Service ServletConfig
+	Description
+		Single instance/object per Servlet with multiple threads for connections
+		First call to servlet
+			init(ServletConfig) -> service() -> doGet() or doPost()
+		subsequent call to servlet
+			service() -> doGet() or doPost()
+		Servlet inheritance
+			GenericServlet <- HttpServlet <- MyServlet
+			GenericServlet : init(ServletConfig) init() service()
+			HttpServlet : service()
+			MyServlet : doGet() doPost()
+	Doing something at first call
+		set
+			annotation
+				@WebServlet(.., initParams={@WebInitParam(name="defaultName", value="John Doe")})
+			web.xml
+			  <servlet>
+			  	...
+			  	<init-param>
+			  		<param-name>defaultName</param-name>
+			  		<param-value>Jane Doh</param-value>
+			  	</init-param>
+			  </servlet>
+		get : getServletConfig().getInitParameter("defaultName")

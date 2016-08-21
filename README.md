@@ -23,11 +23,12 @@ JAVA JSP & Servlets study
 * App - MVC board
 
 ##3. [(Java Brains)](https://www.youtube.com/playlist?list=PLE0F6C1917A427E96 "Java Brains") video 1-25, English [Sound](https://www.fxsound.com/)
-* Setup
+1.	Setup
 [1](https://www.youtube.com/watch?v=b42CJ0r-1to&list=PLE0F6C1917A427E96&index=1)
-* Servlets
+2.	Servlets
 
->*   
+>
+*  
 [2-1](https://www.youtube.com/watch?v=oX2rw5pAdxw&list=PLE0F6C1917A427E96&index=2)
 [2-2](https://www.youtube.com/watch?v=gU0RebsaFzQ&index=3&list=PLE0F6C1917A427E96)
 [3](https://www.youtube.com/watch?v=YxuCG0f14hM&list=PLE0F6C1917A427E96&index=4)
@@ -39,3 +40,8 @@ JAVA JSP & Servlets study
 * HTTP Scope : request, session, context
 [8-1](https://www.youtube.com/watch?v=GbvuAIhLUZU&list=PLE0F6C1917A427E96&index=9)
 [8-2](https://www.youtube.com/watch?v=sHpUrCJmCWs&index=10&list=PLE0F6C1917A427E96)
+* Life Cycle
+[9-1](https://www.youtube.com/watch?v=ji_N8pspwn0&list=PLE0F6C1917A427E96&index=11)
+[9-2](https://www.youtube.com/watch?v=KPh1nPWB9ac&list=PLE0F6C1917A427E96&index=12)
+[9-3](https://www.youtube.com/watch?v=cv1lp_uCtQc&index=13&list=PLE0F6C1917A427E96)
+(bad audio)
