@@ -62,3 +62,6 @@ Annotation vs Web.xml
 			  	</init-param>
 			  </servlet>
 		get : getServletConfig().getInitParameter("defaultName")
+		
+13 JSP
+	Scope & PageContext

@@ -31,18 +31,17 @@ JAVA JSP & Servlets study
 * App - MVC board
 
 ##3. [(Java Brains)](https://www.youtube.com/playlist?list=PLE0F6C1917A427E96 "Java Brains") video 1-25, English [Sound](https://www.fxsound.com/)
-1.	Setup
+*	Setup
 [1](https://www.youtube.com/watch?v=b42CJ0r-1to&list=PLE0F6C1917A427E96&index=1)
-2.	Servlets
-
->
-*  
+*	Servlets
 [2-1](https://www.youtube.com/watch?v=oX2rw5pAdxw&list=PLE0F6C1917A427E96&index=2)
 [2-2](https://www.youtube.com/watch?v=gU0RebsaFzQ&index=3&list=PLE0F6C1917A427E96)
 [3](https://www.youtube.com/watch?v=YxuCG0f14hM&list=PLE0F6C1917A427E96&index=4)
 [5](https://www.youtube.com/watch?v=MnUJl3NYRRc&index=6&list=PLE0F6C1917A427E96)
 [6](https://www.youtube.com/watch?v=0WPfqrSCb6c&index=7&list=PLE0F6C1917A427E96)
 [7](https://www.youtube.com/watch?v=yzC4oDXfkl0&list=PLE0F6C1917A427E96&index=8)
+
+>
 * Web.xml configuration
 [4](https://www.youtube.com/watch?v=w6YPK9xunCk&list=PLE0F6C1917A427E96&index=5)
 * HTTP Scope : request, session, context
@@ -53,3 +52,12 @@ JAVA JSP & Servlets study
 [9-2](https://www.youtube.com/watch?v=KPh1nPWB9ac&list=PLE0F6C1917A427E96&index=12)
 [9-3](https://www.youtube.com/watch?v=cv1lp_uCtQc&index=13&list=PLE0F6C1917A427E96)
 (bad audio)
+
+* JSP
+[10](https://www.youtube.com/watch?v=WCbwBHXUx0k&list=PLE0F6C1917A427E96&index=14)
+[12](https://www.youtube.com/watch?v=qLpm1Zxytsg&list=PLE0F6C1917A427E96&index=16)
+
+>* Mechanism
+[11](https://www.youtube.com/watch?v=Ycf_GQbPqKI&list=PLE0F6C1917A427E96&index=15)
+* Scopes & PageContext
+[13](https://www.youtube.com/watch?v=W0JQ0TaeXAY&list=PLE0F6C1917A427E96&index=17)
