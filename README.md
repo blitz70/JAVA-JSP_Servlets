@@ -61,3 +61,6 @@ JAVA JSP & Servlets study
 [11](https://www.youtube.com/watch?v=Ycf_GQbPqKI&list=PLE0F6C1917A427E96&index=15)
 * Scopes & PageContext
 [13](https://www.youtube.com/watch?v=W0JQ0TaeXAY&list=PLE0F6C1917A427E96&index=17)
+* Init
+[14](https://www.youtube.com/watch?v=g15_vDp0HIg&index=18&list=PLE0F6C1917A427E96)
+

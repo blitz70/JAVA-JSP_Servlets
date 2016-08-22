@@ -64,4 +64,29 @@ Annotation vs Web.xml
 		get : getServletConfig().getInitParameter("defaultName")
 		
 13 JSP
-	Scope & PageContext
+	Scope : same as Servlet scope(08)
+		 built-in objects : request, session, application
+	PageContext : only in JSP, can be used to set & get attributes from range of scopes
+		built-in object : pageContext
+			request.setAttribute() == pageContext.setAttribute("", , PageContext.REQUEST_SCOPE)
+			session.setAttribute() == pageContext.setAttribute("", , PageContext.SESSION_SCOPE)
+			application.setAttribute() == pageContext.setAttribute("", , PageContext.APPLICATION_SCOPE)
+	pageContext.findAttribute("") : used to find attribute regardless of scope
+	
+14 JSP Init
+	Setting initial values of jsp (similar to servlet)
+	web.xml : prepare for setup
+		<servlet>
+		...
+		<servlet-class>package+class</servlet-class> => <jsp-file>/init.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+		...
+			<url-pattern>/init.jsp</url-pattern>	
+		<servlet-mapping>
+	jsp : override jspInit() method, will go into servlet version of jsp
+		<%!
+			public void jspInit() {
+				...
+			}
+		%>
