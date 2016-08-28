@@ -78,7 +78,7 @@ Annotation vs Web.xml
 	web.xml : prepare for setup
 		<servlet>
 		...
-		<servlet-class>package+class</servlet-class> => <jsp-file>/init.jsp</jsp-file>
+			<jsp-file>/init.jsp</jsp-file> instead of <servlet-class>package+class</servlet-class> 
 		</servlet>
 		<servlet-mapping>
 		...
