@@ -98,6 +98,8 @@ JAVA JSP & Servlets study
 * Login App
 [16-1](https://www.youtube.com/watch?v=QOUIVsBN82Q&list=PLE0F6C1917A427E96&index=20)
 [16-2](https://www.youtube.com/watch?v=EOdvmGVdndA&list=PLE0F6C1917A427E96&index=21)
+* Model & RequestDispatcher
 [16-3](https://www.youtube.com/watch?v=WxeY-LxMIbE&list=PLE0F6C1917A427E96&index=22)
+[16-4](https://www.youtube.com/watch?v=3ZTxMDDmBqg&index=23&list=PLE0F6C1917A427E96)
 
 
