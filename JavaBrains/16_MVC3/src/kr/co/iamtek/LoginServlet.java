@@ -1,6 +1,8 @@
 package kr.co.iamtek;
 
 import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -30,8 +32,9 @@ public class LoginServlet extends HttpServlet {
 		boolean result = loginService.authenticate(userId, password);
 		if (result) {
 			User user = loginService.getUserName(userId);
-			request.getSession().setAttribute("user", user);
-			response.sendRedirect("success.jsp");
+			request.setAttribute("user", user);	//add user object to request
+			RequestDispatcher dispatcher =  request.getRequestDispatcher("success.jsp");
+			dispatcher.forward(request, response);	//pass old request&response to new page, also url doesn't change since its a serverside change
 			return;
 		} else {
 			response.sendRedirect("login.jsp");
