@@ -5,7 +5,7 @@ JAVA JSP & Servlets study
 * JSP intro
 * JSF intro
 
-##2. [(Seoul Wiz)](https://www.youtube.com/playlist?list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9 "Seoul Wiz") video 33-63, Korean
+##2. [(Seoul Wiz)](http://www.wiz.center/category/software_development/JSP "Seoul Wiz") [video 33-63](https://www.youtube.com/playlist?list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9), Korean
 * Introduction & Setup
 [1](https://www.youtube.com/watch?v=APJAJeePl4g&index=33&list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9)
 [2](https://www.youtube.com/watch?v=0cy1Oa-2DQg&list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9&index=34)
@@ -92,5 +92,12 @@ JAVA JSP & Servlets study
 [14](https://www.youtube.com/watch?v=g15_vDp0HIg&index=18&list=PLE0F6C1917A427E96)
 
 * MVC
+
+>* Concept
 [15](https://www.youtube.com/watch?v=zk_zEp-mtvQ&index=19&list=PLE0F6C1917A427E96)
+* Login App
+[16-1](https://www.youtube.com/watch?v=QOUIVsBN82Q&list=PLE0F6C1917A427E96&index=20)
+[16-2](https://www.youtube.com/watch?v=EOdvmGVdndA&list=PLE0F6C1917A427E96&index=21)
+[16-3](https://www.youtube.com/watch?v=WxeY-LxMIbE&list=PLE0F6C1917A427E96&index=22)
+
 
