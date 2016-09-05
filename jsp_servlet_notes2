@@ -90,3 +90,21 @@ Annotation vs Web.xml
 				...
 			}
 		%>
+
+16 MVC
+	sendRedirect vs RequestDispatcher
+		used to send client somewhere
+		sendRedirect
+			Client side change : URL change visible at client side
+			Session object : request data lost so scope greater than request must be used
+		RequestDispatcher
+			Server side change : no URL change at client side
+			Old data : request & response object can be altered as well as passed onto target page
+			request.setAttribute("user", user);
+			RequestDispatcher dispatcher =  request.getRequestDispatcher("targetPage.jsp");
+			dispatcher.forward(request, response);
+			
+17 JSTL, JSP Standard Tag Library
+	Java code converted to fit xml format, so that jsp content format is unified and maintainable
+	<jsp:...> is JSP Standard Action Tags? Action Tag is part of JSTL?
+	

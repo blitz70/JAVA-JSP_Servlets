@@ -58,7 +58,7 @@ JAVA JSP & Servlets study
 [29](https://www.youtube.com/watch?v=mrOExa8BLbs&index=62&list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9)
 [30](https://www.youtube.com/watch?v=C42rvXCCWTQ&index=63&list=PLieE0qnqO2kTyzAlsvxzoulHVISvO8zA9)
 
-##3. [(Java Brains)](https://www.youtube.com/playlist?list=PLE0F6C1917A427E96 "Java Brains") video 1-25, English [Sound](https://www.fxsound.com/)
+##3. [(Java Brains)](https://www.youtube.com/playlist?list=PLE0F6C1917A427E96 "Java Brains") video 1-25, English [Audio Enhancer](https://www.fxsound.com/)
 *	Setup
 [1](https://www.youtube.com/watch?v=b42CJ0r-1to&list=PLE0F6C1917A427E96&index=1)
 *	Servlets
