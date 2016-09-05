@@ -99,12 +99,28 @@ Annotation vs Web.xml
 			Session object : request data lost so scope greater than request must be used
 		RequestDispatcher
 			Server side change : no URL change at client side
-			Old data : request & response object can be altered as well as passed onto target page
-			request.setAttribute("user", user);
-			RequestDispatcher dispatcher =  request.getRequestDispatcher("targetPage.jsp");
-			dispatcher.forward(request, response);
+			Old data : request & response object can be altered as well as passed onto target page (form parameters also)
+			Ex
+				request.setAttribute("user", user);
+				RequestDispatcher dispatcher =  request.getRequestDispatcher("targetPage.jsp");
+				dispatcher.forward(request, response);
 			
 17 JSTL, JSP Standard Tag Library
 	Java code converted to fit xml format, so that jsp content format is unified and maintainable
-	<jsp:...> is JSP Standard Action Tags? Action Tag is part of JSTL?
+	<jsp:...> is JSP Standard Action Tag? Action Tag is part of JSTL?
+	Bean JSTL, <jsp:useBean> <jsp:setProperty> <jsp:getProperty>
+		<jsp:useBean id="user" class="kr.co.iamtek.dto.User" scope="request">
+			<jsp:setProperty property="userName" name="user" value="DefaultUser"/>
+		</jsp:useBean>
+	 	Hello <jsp:getProperty property="userName" name="user"/>!
+	 request.getAttribute vs request.getParameter?
+	 	getAttribute : set in servlet, returns Object
+	 	getParameter : set in form tag, returns String
+	 <jsp:setProperty>
+	 	General
+	 		<jsp:setProperty property="userName" name="user" param="userName"/>
+	 	Shorthand 1 : If form tag parameter name = bean property name
+	 		<jsp:setProperty property="userName" name="user"/>
+	 	Shorthand 2 : if shorthand1 is true and all parameters is mappable to bean properties 
+	 		<jsp:setProperty property="*" name="user"/>
 	

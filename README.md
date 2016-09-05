@@ -102,4 +102,6 @@ JAVA JSP & Servlets study
 [16-3](https://www.youtube.com/watch?v=WxeY-LxMIbE&list=PLE0F6C1917A427E96&index=22)
 [16-4](https://www.youtube.com/watch?v=3ZTxMDDmBqg&index=23&list=PLE0F6C1917A427E96)
 
-
+* JSTL
+[17](https://www.youtube.com/watch?v=-mjYAf0ILZs&list=PLE0F6C1917A427E96&index=24)
+[18](https://www.youtube.com/watch?v=4GAJ5pxQ-3c&list=PLE0F6C1917A427E96&index=25)
